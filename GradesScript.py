@@ -36,7 +36,3 @@ def add_terms():
 
 final_average = multiply_terms()
 print(f"Your final average in {subject_name} is {final_average:.2f}")
-
-##grade_calc_final = grade_calc_forty * grade_calc_final
-##print(f"Final average is: {grade_calc_final}")
-
