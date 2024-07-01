@@ -8,7 +8,7 @@ def main():
     print(f"Welcome to grade script thing")
     subject_name = input("ENTER SUBJECT NAME: ")
 
-    for term in term_list:
+    for term in TERM_LIST:
         while True:
             try:
                 grade = input(f"What is your {term} grade for {subject_name}: ")
