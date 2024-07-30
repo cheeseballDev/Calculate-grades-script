@@ -10,7 +10,7 @@ public class GradesScript {
         Scanner userInput = new Scanner(System.in);
         System.out.print("ENTER YOUR SUBJECT: ");
         String subjectName = userInput.nextLine();
-        getUserScore();
+        //getUserScore();
         while(true){
             try {
                 System.out.println("ENTER YOUR ");
